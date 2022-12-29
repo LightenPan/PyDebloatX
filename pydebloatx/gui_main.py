@@ -185,7 +185,11 @@ class Ui_MainWindow(QMainWindow):
             QCoreApplication.translate("AppName", "Weather"),
             QCoreApplication.translate("AppName", "Xbox"),
             QCoreApplication.translate("AppName", "Xbox Game Bar"),
-            QCoreApplication.translate("AppName", "Your Phone")
+            QCoreApplication.translate("AppName", "Your Phone"),
+            
+            QCoreApplication.translate("AppName", "Clipchamp"),
+            QCoreApplication.translate("AppName", "Family"),
+            QCoreApplication.translate("AppName", "Todos"),
         ))
         self.tooltip_list = list((
             QCoreApplication.translate("ToolTip", "View, create, and personalize 3D objects."),
@@ -224,7 +228,11 @@ class Ui_MainWindow(QMainWindow):
             QCoreApplication.translate("ToolTip", "Latest weather conditions, accurate 10-day and hourly forecasts."),
             QCoreApplication.translate("ToolTip", "Browse the catalogue, view recommendations, and discover PC games with Xbox Game Pass."),
             QCoreApplication.translate("ToolTip", "Instant access to widgets for screen capture and sharing, and chatting with Xbox friends."),
-            QCoreApplication.translate("ToolTip", "Link your Android phone and PC to view and reply to text messages, access mobile apps, and receive notifications.")
+            QCoreApplication.translate("ToolTip", "Link your Android phone and PC to view and reply to text messages, access mobile apps, and receive notifications."),
+
+            QCoreApplication.translate("Clipchamp", "Clipchamp"),
+            QCoreApplication.translate("Family", "Family"),
+            QCoreApplication.translate("Todos", "Todos"),
         ))
         self.app_data_list = [
             {"name": "*Microsoft.3DBuilder*", "link": "/?PFN=Microsoft.3DBuilder_8wekyb3d8bbwe", "size": 0},
@@ -263,7 +271,11 @@ class Ui_MainWindow(QMainWindow):
             {"name": "*Microsoft.BingWeather*", "link": "/?PFN=Microsoft.BingWeather_8wekyb3d8bbwe", "size": 0},
             {"name": "*Microsoft.GamingApp*", "link": "/?PFN=Microsoft.GamingApp_8wekyb3d8bbwe", "size": 0},
             {"name": "*Xbox*", "link": "/?PFN=Microsoft.XboxGameOverlay_8wekyb3d8bbwe", "size": 0},
-            {"name": "*Microsoft.YourPhone*", "link": "/?PFN=Microsoft.YourPhone_8wekyb3d8bbwe", "size": 0}
+            {"name": "*Microsoft.YourPhone*", "link": "/?PFN=Microsoft.YourPhone_8wekyb3d8bbwe", "size": 0},
+            
+            {"name": "*Clipchamp.Clipchamp*", "link": "/?PFN=Clipchamp.Clipchamp_yxz26nhyzhsrt", "size": 0},
+            {"name": "*MicrosoftCorporationII.MicrosoftFamily*", "link": "/?PFN=MicrosoftCorporationII.MicrosoftFamily_8wekyb3d8bbwe", "size": 0},
+            {"name": "*Microsoft.Todos*", "link": "/?PFN=Microsoft.Todos_8wekyb3d8bbwe", "size": 0},
         ]
 
         if version.parse(platform.version()) >= version.parse("10.0.19041"):
